@@ -78,7 +78,7 @@ yarn tsc --init
 yarn dev
 ```
 
-## Adicionando Prisma (Config. Banco de Dados)
+## Adicionando Prisma (Banco de Dados)
 
 ```bash
 yarn add prisma -D
@@ -87,6 +87,8 @@ yarn add prisma -D
 ```bash
 yarn prisma init
 ```
+
+## Dependencia "dotenv" (Variavel na url)
 
 ```bash
 yarn add dotenv
