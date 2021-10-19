@@ -1,6 +1,7 @@
 - JetBrains Mono
 - https://www.jetbrains.com/lp/mono/
 - Tema Omni
+- Plugin EmojiSense
 
 ## Configuração VSCode
 
@@ -33,6 +34,15 @@
 
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
+    "emojisense.languages": {
+    "markdown": true,
+    "html": true,
+    "javascript": true,
+    "typescript": true,
+    "plaintext": true,
+    "json": true,
+    "scminput": true // language used in the source control commit message box
+}
 ```
 
 ## Instalação do YARN
@@ -56,4 +66,14 @@ yarn add express
 ```bash
 // Auto-reload na aplicação
 yarn add -D @types/express typescript ts-node-dev
+```
+
+```bash
+yarn tsc --init
+```
+
+## Iniciar ambiente de desenvolvimento
+
+```bash
+yarn dev
 ```
