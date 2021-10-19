@@ -15,4 +15,4 @@ app.get("/signin/callback", (request, response) => {
 })
 
 // Inicia o servidor na porta 4000
-app.listen(4000, () => console.log(`🚀 Servidor rodando na porta 4000`))
+app.listen(4000, () => console.log(`🚀 Servidor rodando na porta 4000 👊`))
