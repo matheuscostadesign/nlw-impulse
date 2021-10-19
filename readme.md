@@ -45,6 +45,12 @@
 }
 ```
 
+### Baixar dependencias (node_modules)
+
+```bash
+npm install
+```
+
 ## Instalação do YARN
 
 ```bash
