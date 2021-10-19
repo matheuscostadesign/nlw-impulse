@@ -2,7 +2,7 @@
 - https://www.jetbrains.com/lp/mono/
 - Tema Omni
 
-# Configuração VSCode
+## Configuração VSCode
 
 ```json
  // Configurações da fonte JetBrains Mono
@@ -41,8 +41,19 @@
 npm install --global yarn
 ```
 
+! Executar YARN pelo Git Bash!
+
 ## Iniciar projeto com YARN
 
 ```bash
 yarn init -y
+```
+
+```bash
+yarn add express
+```
+
+```bash
+// Auto-reload na aplicação
+yarn add -D @types/express typescript ts-node-dev
 ```
