@@ -41,7 +41,7 @@
     "typescript": true,
     "plaintext": true,
     "json": true,
-    "scminput": true // language used in the source control commit message box
+    "scminput": true
 }
 ```
 
@@ -76,4 +76,18 @@ yarn tsc --init
 
 ```bash
 yarn dev
+```
+
+## Adicionando Prisma (Config. Banco de Dados)
+
+```bash
+yarn add prisma -D
+```
+
+```bash
+yarn prisma init
+```
+
+```bash
+yarn add dotenv
 ```
