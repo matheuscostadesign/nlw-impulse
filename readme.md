@@ -57,25 +57,11 @@ npm install
 npm install --global yarn
 ```
 
-! Executar YARN pelo Git Bash!
-
 ## Iniciar projeto com YARN
 
 ```bash
+## Executar YARN pelo Git Bash
 yarn init -y
-```
-
-```bash
-yarn add express
-```
-
-```bash
-// Auto-reload na aplicação
-yarn add -D @types/express typescript ts-node-dev
-```
-
-```bash
-yarn tsc --init
 ```
 
 ## Iniciar ambiente de desenvolvimento
@@ -84,19 +70,29 @@ yarn tsc --init
 yarn dev
 ```
 
-## Adicionando Prisma (Banco de Dados)
+## Dependencias
 
 ```bash
-yarn add prisma -D
+yarn add express
 ```
 
 ```bash
+## Auto-reload na aplicação
+yarn add -D @types/express typescript ts-node-dev
+```
+
+```bash
+yarn tsc --init
+```
+
+```bash
+## Adicionando Prisma (Comunicação DB)
+yarn add prisma -D
 yarn prisma init
 ```
 
-## Dependencia "dotenv" (Variavel na url)
-
 ```bash
+## Dependencia "dotenv" (Variaveis na url)
 yarn add dotenv
 ```
 
