@@ -1,7 +1,12 @@
 import "dotenv/config";
-import express, { request } from "express";
+import express from "express";
+
+import { router } from "./routes";
 
 const app = express();
+app.use(express.json());
+
+app.use(router);
 
 // Rota github (localhost:4000/github)
 app.get("/github", (request, response) => {
