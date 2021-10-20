@@ -99,3 +99,8 @@ yarn prisma init
 ```bash
 yarn add dotenv
 ```
+
+```bash
+yarn add axios
+yarn add @types/axios -D
+```
