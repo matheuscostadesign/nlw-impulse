@@ -68,3 +68,8 @@ yarn add @types/axios -D
 yarn add jsonwebtoken
 yarn add @types/jsonwebtoken -D
 ```
+
+```bash
+yarn prisma migrate dev
+yarn add @prisma/client
+```
