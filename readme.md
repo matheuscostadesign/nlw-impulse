@@ -104,3 +104,8 @@ yarn add dotenv
 yarn add axios
 yarn add @types/axios -D
 ```
+
+```bash
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
+```
