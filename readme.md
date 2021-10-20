@@ -1,3 +1,10 @@
+# Stage 1 – Back-end
+
+- Criação do backend da aplicação utlizando NodeJS;
+- Typescript para aumento da produtividade em desenvolvimento;
+- Prisma ORM, para trabalhar com banco de dados;
+- Socket.IO para trabalhar comunicação em tempo real;
+
 ### Baixar dependencias (node_modules)
 
 ```bash
