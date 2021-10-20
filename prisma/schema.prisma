@@ -10,7 +10,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-// Tabela de usuario
+// Tabela Usuario
 model User {
   id         String @id @default(uuid())
   name       String
@@ -18,5 +18,17 @@ model User {
   avatar_url String
   login      String
 
+  messages Message[]
   @@map("users")
+}
+
+// Tabela Mensagens
+model Message {
+  id         String   @id @default(uuid())
+  text       String
+  created_at DateTime @default(now())
+  user       User     @relation(fields: [user_id], references: [id])
+
+  user_id String
+  @@map("messages")
 }
