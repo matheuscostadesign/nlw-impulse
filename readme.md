@@ -72,4 +72,5 @@ yarn add @types/jsonwebtoken -D
 ```bash
 yarn prisma migrate dev
 yarn add @prisma/client
+yarn prisma studio
 ```
