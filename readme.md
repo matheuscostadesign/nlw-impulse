@@ -90,7 +90,8 @@ yarn add @types/cors -D
 Aula 02:
 
 - Criação do front-end web da aplicação utilizando ReactJS.
-- Implementação do Vite (https://vitejs.dev/), uma ferramenta extremamente performática, TypeScript e CSS modules.
+- Implementação do Vite (https://vitejs.dev/), uma ferramenta extremamente performática
+- Implementação do TypeScript e CSS modules.
 - Interface da aplicação do zero com Flexbox e Grid System
 - Animações com Framer Motion.
 
