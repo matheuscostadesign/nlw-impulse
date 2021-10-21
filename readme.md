@@ -74,3 +74,10 @@ yarn prisma migrate dev
 yarn add @prisma/client
 yarn prisma studio
 ```
+
+```bash
+yarn add socket.io
+yarn add @types/socket.io -D
+yarn add cors
+yarn add @types/cors -D
+```

@@ -1,11 +1,28 @@
 import "dotenv/config";
 import express from "express";
+import http from "http";
+import cors from "cors";
 
+import { Server } from "socket.io";
 import { router } from "./routes";
 
 const app = express();
-app.use(express.json());
 
+app.use(cors())
+
+const serverHttp = http.createServer(app);
+
+const io = new Server(serverHttp, {
+  cors: {
+    origin: "*"
+  }
+});
+
+io.on("connection", socket => {
+  console.log(`Usuário conectado no socket ${socket.id}`);
+});
+
+app.use(express.json());
 app.use(router);
 
 // Rota github (localhost:4000/github)
@@ -19,5 +36,4 @@ app.get("/signin/callback", (request, response) => {
   return response.json(code); // exibe o código de retorno do github
 })
 
-// Inicia o servidor na porta 4000
-app.listen(4000, () => console.log(`🚀 Servidor rodando na porta 4000 👊`))
+export { serverHttp, io };
