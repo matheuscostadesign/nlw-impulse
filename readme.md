@@ -2,6 +2,8 @@
 
 # Stage 1 – Back-end
 
+Aula 01: #RumoAoPróximoNível
+
 - Criação do backend da aplicação utlizando NodeJS;
 - Typescript para aumento da produtividade em desenvolvimento;
 - Prisma ORM, para trabalhar com banco de dados;
