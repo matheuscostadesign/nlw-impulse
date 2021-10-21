@@ -85,7 +85,7 @@ yarn add cors
 yarn add @types/cors -D
 ```
 
-# Stage 1 – Front-end
+# Stage 2 – Front-end
 
 Aula 02:
 
