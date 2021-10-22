@@ -30,6 +30,7 @@ export function SendMessageForm() {
         id="message"
         placeholder="Qual sua expectativa para o evento?"
         />
+        <button type="submit">Enviar Mensagem</button>
       </form>
     </div>
   )
