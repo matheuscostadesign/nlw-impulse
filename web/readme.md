@@ -22,4 +22,7 @@ yarn add sass
 
 ### Icones
 yarn add react-icons
+
+### Axios
+yarn add axios
 ```
