@@ -2,7 +2,7 @@
 
 # Stage 2 – Front-end
 
-Aula 02:
+Aula 02: #Protagonistas
 
 - Criação do front-end web da aplicação utilizando ReactJS.
 - Implementação do Vite (https://vitejs.dev/), ferramenta front-end extremamente performática
