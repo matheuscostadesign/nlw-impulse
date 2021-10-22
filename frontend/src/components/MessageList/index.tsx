@@ -13,6 +13,12 @@ type Message  = {
   }
 }
 
+const socket = io('http://localhost:400');
+
+socket.on('new_message', newMessage => {
+  console.log(newMessage);
+})
+
 export function MessageList() {
   const [messages, setMessages] = useState<Message[]>([])
   
