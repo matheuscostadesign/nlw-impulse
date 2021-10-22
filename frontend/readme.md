@@ -25,4 +25,7 @@ yarn add react-icons
 
 ### Axios
 yarn add axios
+
+### Socket.io
+yarn add socket.io-client
 ```
