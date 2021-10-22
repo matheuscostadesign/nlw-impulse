@@ -3,3 +3,5 @@
 # NLW Heat Impulse
 
 - Projeto completo (Backend e Frontend) criado durante a semana Next Level Week da @Rocketseat, trilha Impulse.
+
+<img src=".github/capa.png">
