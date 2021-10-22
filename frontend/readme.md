@@ -5,7 +5,7 @@
 Aula 02:
 
 - Criação do front-end web da aplicação utilizando ReactJS.
-- Implementação do Vite (https://vitejs.dev/), uma ferramenta extremamente performática
+- Implementação do Vite (https://vitejs.dev/), ferramenta front-end extremamente performática
 - Implementação do TypeScript e CSS modules.
 - Interface da aplicação do zero com Flexbox e Grid System
 - Animações com Framer Motion.
